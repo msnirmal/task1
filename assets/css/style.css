@@ -2,10 +2,34 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  font-family: 'Inter', sans-serif;
+h1 {
+  font-size: 3rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;  
+  margin-left: 20px;
+}
+
+#main {
+    background-size: cover;
+  }
+
+  .navbar-nav {
+    font-size: 1.5rem;
+  }
+
+
+.aboutHeading {
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
 
 
 .project1{
@@ -16,3 +40,29 @@ body {
     background-position: center;
     position: relative;    
 }
+
+form {
+    padding-bottom: 10px;
+    padding-top: 48px;
+  }
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  #button {
+    margin-top: 10px;
+  }
+
+   .form-control {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    transition: box-shadow 0.2s ease;
+  }
+
+  
+  .form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+    border-color: #80bdff;
+  }
+
+
