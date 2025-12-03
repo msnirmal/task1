@@ -12,8 +12,7 @@ h2 {
 
 
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: beige;
+  font-family: 'Inter', sans-serif;  
   margin-left: 10px;
 }
 
@@ -28,7 +27,7 @@ body {
 
 .aboutHeading {
     font-size: 2.5rem;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 20px;
   }
 
